@@ -38,7 +38,7 @@
         <ul class="header-contact-list">
           <li class="header-contact-list-item">
             <svg class="header-icon" width="16px" height="12px">
-              <use href="./images/icons.svg#icon-envelope"></use>
+              <use href="./images/icons.svg#icon-envelope-white"></use>
             </svg>
             <a class="header-contact mail" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -372,10 +372,28 @@
           </li>
         </ul>
       </div>
+      <form class="footer-form-section">
+        <label for="email" class="footer-form-section-title"
+          >Zapisz się do newslettera</label
+        >
+        <div class="footer-input-button-section">
+          <input type="email" name="email" id="email" placeholder="E-mail" />
+          <button type="submit" class="footer-form-section-button">
+            <p>Zapisz się</p>
+            <svg class="footer-form-section-button-icon">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </div>
+      </form>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="close-button" data-modal-close></button>
+        <button type="button" class="close-button" data-modal-close>
+          <svg class="close-button-icon">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
