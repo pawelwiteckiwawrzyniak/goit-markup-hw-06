@@ -248,6 +248,28 @@ a:focus {
   align-items: center;
   justify-content: center;
 }
+
+.description-list-item {
+  display: flex;
+  position: relative;
+}
+
+.description-list-item-overlay {
+  position: absolute;
+  text-align: center;
+  padding: 27px 0;
+  width: 100%;
+  min-height: 70px;
+  bottom: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
 .team-list {
   list-style: none;
   display: flex;
