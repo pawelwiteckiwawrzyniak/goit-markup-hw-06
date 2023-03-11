@@ -373,11 +373,16 @@
         </ul>
       </div>
       <form class="footer-form-section">
-        <label for="email" class="footer-form-section-title"
+        <label for="footer-email" class="footer-form-section-title"
           >Zapisz się do newslettera</label
         >
         <div class="footer-input-button-section">
-          <input type="email" name="email" id="email" placeholder="E-mail" />
+          <input
+            type="email"
+            name="email-newsletter"
+            id="footer-email"
+            placeholder="E-mail"
+          />
           <button type="submit" class="footer-form-section-button">
             <p>Zapisz się</p>
             <svg class="footer-form-section-button-icon">
@@ -394,6 +399,58 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <form class="modal-form">
+          <p class="modal-form-title">Zostaw swoje dane w formularzu poniżej</p>
+          <label for="modal-name" class="modal-label">Imię</label>
+          <div class="modal-input-section">
+            <svg class="modal-form-icon">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+            <input
+              type="text"
+              class="modal-input"
+              id="modal-name"
+              name="name"
+            />
+          </div>
+          <label for="modal-phone" class="modal-label">Telefon</label>
+          <div class="modal-input-section">
+            <svg class="modal-form-icon">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+            <input
+              type="tel"
+              class="modal-input"
+              id="modal-phone"
+              name="phone"
+            />
+          </div>
+          <label for="modal-email" class="modal-label">Email</label>
+          <div class="modal-input-section">
+            <svg class="modal-form-icon">
+              <use href="./images/icons.svg#icon-envelope-black"></use>
+            </svg>
+            <input
+              type="email"
+              class="modal-input"
+              id="modal-email"
+              name="email"
+            />
+          </div>
+          <label for="modal-comment" class="modal-label">Komentarz</label>
+          <textarea
+            class="modal-text-area"
+            name="comment"
+            id="modal-comment"
+            rows="4"
+            placeholder="Wprowadź tekst"
+          ></textarea
+          ><label>
+            <input type="checkbox" name="agreement" />Oświadczam iż akceptuję
+            Regulamin i Politykę Prywatności.</label
+          >
+          <button type="submit" class="modal-submit">Wyślij</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>

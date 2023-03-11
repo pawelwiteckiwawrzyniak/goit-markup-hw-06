@@ -592,7 +592,7 @@ header {
   letter-spacing: 0.03em;
 }
 
-#email {
+#footer-email {
   height: 50px;
   width: 358px;
   top: 36px;
@@ -602,7 +602,7 @@ header {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
-#email::placeholder {
+#footer-email::placeholder {
   color: rgba(255, 255, 255, 0.6);
   padding: 15px 16px;
 }
@@ -632,4 +632,45 @@ header {
 .footer-form-section-button-icon {
   width: 24px;
   height: 24px;
+}
+
+.modal-form {
+  padding: 40px;
+}
+
+.modal-form-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+  margin-bottom: 12px;
+}
+
+.modal-label {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  margin-bottom: 4px;
+  color: #757575;
+}
+
+.modal-input-section {
+  display: flex;
+  position: relative;
+  width: 448px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.modal-form-icon {
+  position: absolute;
+  height: 18px;
+  width: 18px;
+}
+
+.modal-input {
+  width: 100%;
+  height: 100%;
 }
