@@ -56,7 +56,7 @@
       </div>
     </header>
     <main class="container">
-      <section class="section">
+      <div class="main-section">
         <ul class="filter-list">
           <li class="filter-list-item">
             <button class="filter-button" type="button">Wszystkie</button>
@@ -293,7 +293,7 @@
             </figure>
           </li>
         </ul>
-      </section>
+      </div>
     </main>
     <footer id="contact">
       <div class="footer-contact-section">
@@ -340,13 +340,18 @@
         </ul>
       </div>
       <form class="footer-form-section">
-        <label for="email" class="footer-form-section-title"
+        <label for="footer-email" class="footer-form-section-title"
           >Zapisz się do newslettera</label
         >
         <div class="footer-input-button-section">
-          <input type="email" name="email" id="email" placeholder="E-mail" />
+          <input
+            type="email"
+            name="email-newsletter"
+            id="footer-email"
+            placeholder="E-mail"
+          />
           <button type="submit" class="footer-form-section-button">
-            <p>Zapisz się</p>
+            Zapisz się
             <svg class="footer-form-section-button-icon">
               <use href="./images/icons.svg#icon-send"></use>
             </svg>
